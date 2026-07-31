@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sifeddine Ait-Ouarab — Technicien Systèmes & Réseaux</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="netCanvas"></canvas>
+<div class="grain"></div>
+<div class="vignette"></div>
+
+<nav>
+  <div class="navwrap">
+    <div class="logo"><span class="dot"></span> S.AIT-OUARAB</div>
+    <div class="navlinks">
+      <a href="#profil">profil</a>
+      <a href="#experience">expérience</a>
+      <a href="#competences">compétences</a>
+      <a href="#projets">projets</a>
+      <a href="#contact">contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-flex">
+      <div class="hero-text-col">
+        <div class="terminal">
+          <div class="termbar"><span></span><span></span><span></span></div>
+          <div id="typeline"><span class="cursor"></span></div>
+        </div>
+
+        <h1 class="hero-name">Sifeddine <span class="accent">Ait-Ouarab</span></h1>
+        <p class="hero-role">Technicien Spécialisé en Systèmes & Réseaux Informatiques — focus infrastructure, virtualisation et cybersécurité opérationnelle (SIEM, supervision, hardening).</p>
+
+        <div class="hero-meta">
+          <span class="avail">● Disponible immédiatement</span>
+          <span>📍 Ouarzazate, Maroc</span>
+          <span>0624950349</span>
+          <span>sayfedineouarab@gmail.com</span>
+        </div>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Me contacter</a>
+          <a class="btn btn-ghost" href="#projets">Voir les projets</a>
+        </div>
+      </div>
+
+      <div class="photo-orbit">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="photo-frame">
+          <img src="assets/photo.jpg" alt="Sifeddine Ait-Ouarab">
+          <div class="tint"></div>
+          <div class="scan"></div>
+        </div>
+        <div class="photo-tag">● verified</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFIL -->
+  <section id="profil">
+    <div class="eyebrow">Profil</div>
+    <h2 class="title reveal">Administrer, sécuriser, <span>superviser.</span></h2>
+    <div class="profil-grid">
+      <div class="profil-text reveal">
+        <p>Jeune diplômé en Infrastructure Digitale (option Systèmes et Réseaux), sérieux, motivé et passionné par l'administration des systèmes Windows et Linux, l'administration réseau, la virtualisation et la gestion du parc informatique.</p>
+        <p>Particulièrement intéressé par la cybersécurité opérationnelle : solutions SIEM, surveillance des incidents de sécurité, et application des bonnes pratiques de sécurité de l'information.</p>
+        <p>Autonome, rigoureux et désireux d'apprendre — je souhaite intégrer une équipe dynamique pour mettre mes compétences en pratique et contribuer activement à la continuité des services IT.</p>
+      </div>
+      <div class="stat-panel reveal">
+        <div class="stat"><b>N1/N2</b><span>Support technique</span></div>
+        <div class="stat"><b>3</b><span>Environnements virtualisés</span></div>
+        <div class="stat"><b>6+</b><span>Solutions firewall</span></div>
+        <div class="stat"><b>4</b><span>Projets sécurité menés</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="eyebrow">Parcours</div>
+    <h2 class="title reveal">Expérience <span>professionnelle</span></h2>
+    <div class="timeline">
+      <div class="tl-item current reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Depuis le 29 sept. 2025 — Aujourd'hui</div>
+        <div class="tl-role">Support Technique Informatique</div>
+        <div class="tl-org">Resolutiondata — Casablanca</div>
+        <ul class="tl-list">
+          <li>Support technique N1/N2 des utilisateurs</li>
+          <li>Administration Windows Server 2012–2022 : Active Directory, DNS, DHCP, WSUS</li>
+          <li>Firewalls FortiGate : haute disponibilité (HA), VPN Client-to-Site et Site-to-Site</li>
+          <li>Virtualisation VMware ESXi & Hyper-V</li>
+          <li>Sécurité endpoint : Kaspersky Security Center, Endpoint Protection, Sophos, Symantec</li>
+          <li>Supervision d'infrastructures avec Zabbix</li>
+          <li>Sauvegardes avec Veeam Backup & Replication et Iperius Backup</li>
+          <li>Stockage NAS : QNAP et Synology</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-date">01/04/2025 — 30/04/2025</div>
+        <div class="tl-role">Stage de fin d'études — Technicien Spécialisé Systèmes et Réseaux</div>
+        <div class="tl-org">NOMAC — Ouarzazate</div>
+        <ul class="tl-list">
+          <li>Observation du fonctionnement quotidien du service informatique</li>
+          <li>Suivi des serveurs et équipements réseau</li>
+          <li>Application des procédures de maintenance et de sécurité</li>
+          <li>Sensibilisation à la sécurité de l'information (ISO/IEC 27001), CIA</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCES -->
+  <section id="competences">
+    <div class="eyebrow">Stack</div>
+    <h2 class="title reveal">Compétences <span>techniques</span></h2>
+    <div class="skill-groups">
+
+      <div class="skill-card reveal">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M2 9l10-6 10 6-10 6-10-6z"/><path d="M2 9v6l10 6 10-6V9"/></svg>Réseaux & Sécurité périmétrique</h3>
+        <div class="tags">
+          <span class="tag">Cisco</span><span class="tag">Aruba</span><span class="tag">Grandstream</span>
+          <span class="tag">FortiGate</span><span class="tag">Cisco ASA</span><span class="tag">pfSense</span>
+          <span class="tag">Watchguard</span><span class="tag">Sophos</span><span class="tag">VPN S2S / C2S</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>Systèmes & Virtualisation</h3>
+        <div class="tags">
+          <span class="tag">Windows Server</span><span class="tag">Active Directory</span><span class="tag">DNS/DHCP</span>
+          <span class="tag">WSUS</span><span class="tag">Debian</span><span class="tag">Red Hat</span>
+          <span class="tag">VMware ESXi</span><span class="tag">Hyper-V</span><span class="tag">Proxmox VE</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2l9 4.5v9L12 20l-9-4.5v-9L12 2z"/><path d="M12 12l9-4.5M12 12v9M12 12L3 7.5"/></svg>SIEM & Supervision</h3>
+        <div class="tags">
+          <span class="tag">Wazuh</span><span class="tag">ELK Stack</span><span class="tag">Zabbix</span>
+          <span class="tag">Wireshark</span><span class="tag">Nmap</span><span class="tag">Détection d'incidents</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>Scripting & Sauvegarde</h3>
+        <div class="tags">
+          <span class="tag">Bash</span><span class="tag">PowerShell</span><span class="tag">Ansible</span>
+          <span class="tag">Veeam B&R</span><span class="tag">Iperius Backup</span><span class="tag">QNAP / Synology</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projets">
+    <div class="eyebrow">Réalisations</div>
+    <h2 class="title reveal">Projets <span>réalisés</span></h2>
+    <div class="proj-grid">
+      <div class="proj-card reveal">
+        <span class="proj-tag">SIEM</span>
+        <h3>SIEM Wazuh — Détection & Réponse aux incidents</h3>
+        <p>Mise en place d'une solution SIEM open-source pour la collecte, l'analyse et la corrélation des logs de sécurité.</p>
+      </div>
+      <div class="proj-card reveal">
+        <span class="proj-tag">Haute disponibilité</span>
+        <h3>Cluster Web — HA & équilibrage de charge</h3>
+        <p>Conception d'une architecture web résiliente garantissant disponibilité et continuité de service en cas de panne.</p>
+      </div>
+      <div class="proj-card reveal">
+        <span class="proj-tag">Sécurité web</span>
+        <h3>Reverse Proxy & WAF</h3>
+        <p>Déploiement d'une infrastructure web sécurisée avec reverse proxy et pare-feu applicatif (WAF).</p>
+      </div>
+      <div class="proj-card reveal">
+        <span class="proj-tag">Monitoring</span>
+        <h3>Zabbix — Supervision centralisée & alerting</h3>
+        <p>Solution de monitoring centralisant logs et alertes de sites clients distants via Zabbix server et Zabbix proxy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMATION + LANGUES -->
+  <section id="formation">
+    <div class="split">
+      <div>
+        <div class="eyebrow">Parcours académique</div>
+        <h2 class="title reveal">Formation</h2>
+        <div class="edu-item reveal">
+          <div class="edu-year">2023 – 2025</div>
+          <div class="edu-title">Technicien Spécialisé en Systèmes et Réseaux Informatiques</div>
+          <div class="edu-sub">ISTA Ouarzazate</div>
+        </div>
+        <div class="edu-item reveal">
+          <div class="edu-year">2021 – 2022</div>
+          <div class="edu-title">Baccalauréat — Sciences de la Vie et de la Terre</div>
+          <div class="edu-sub">Lycée Qualifiant El Khawarizmi, Taznakhet</div>
+        </div>
+      </div>
+      <div>
+        <div class="eyebrow">Communication</div>
+        <h2 class="title reveal">Langues & atouts</h2>
+        <div class="reveal">
+          <div class="lang-row"><span>Arabe</span><div class="lang-bar"><div class="lang-fill" data-w="100"></div></div><span>natif</span></div>
+          <div class="lang-row"><span>Français</span><div class="lang-bar"><div class="lang-fill" data-w="85"></div></div><span>courant</span></div>
+          <div class="lang-row"><span>Anglais</span><div class="lang-bar"><div class="lang-fill" data-w="70"></div></div><span>professionnel</span></div>
+        </div>
+        <div class="soft-tags reveal">
+          <span class="tag">Esprit d'analyse</span><span class="tag">Autonomie</span>
+          <span class="tag">Écoute active</span><span class="tag">Communication technique</span>
+          <span class="tag">Confidentialité</span><span class="tag">Proactivité</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-box reveal">
+      <h2>Construisons une infrastructure fiable ensemble.</h2>
+      <p>Disponible immédiatement pour un poste en administration systèmes, réseaux ou sécurité opérationnelle.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:sayfedineouarab@gmail.com">✉ sayfedineouarab@gmail.com</a>
+        <a class="btn btn-ghost" href="tel:0624950349">📞 06 24 95 03 49</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2026 Sifeddine Ait-Ouarab — Ouarzazate, Maroc</footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
